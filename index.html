@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Farming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#10b981">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      Smart Farming requires JavaScript to run. Please enable JavaScript.
+    </noscript>
+    <script>
+      // If this file is opened directly (file://) or without a host, redirect to the dev server
+      (function() {
+        try {
+          var isFile = location.protocol === 'file:';
+          var hasHost = !!location.host;
+          if (isFile || !hasHost) {
+            // Attempt to redirect to the Vite dev server
+            location.href = 'http://localhost:3000';
+          }
+        } catch (e) {
+          // ignore
+        }
+      })();
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+  </html>
