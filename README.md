@@ -213,3 +213,4 @@ This project contributes to:
 * Multi-language support
 * Automated irrigation control system
  
+https://github.com/vaishnaviii2005/Smart_Farming/blob/main/farming_screenshots.docx
